@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-light-webfont.woff') format('woff'),
+         url('opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+}
+body {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font: 9pt open_sanslight;
+    padding: 50px 0 0;
+}
+.wrapper {
+    background: url("../images/base.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    box-shadow: 0 0 5px #000000;
+    margin: 0 auto;
+    width: 279px;
+}
+.wrapper .title {
+    background: url("../images/title.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content {
+    padding: 0 10px;
+}
+.content .address {
+    display: inline-block;
+    font-size: 18pt;
+    padding: 5%;
+    vertical-align: middle;
+    width: 60%;
+}
